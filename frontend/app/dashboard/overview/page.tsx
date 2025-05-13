@@ -14,10 +14,10 @@ export default function OverviewPage() {
 
   // Loading state while user data is being fetched
   
-  const streakLength = user?.loginStreak || 0
+  const streakLength = user?.streak || 0
   const maxStreak = 15 // Assume 30 days is the maximum streak length for visual purposes
   const minutesGoal = 30 // Set a goal for minutes spent (adjust as necessary)
-  const currentMinutes = user?.minutesSpent || 0
+  const currentMinutes = user?.minutes || 0
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-teal-50 to-white">

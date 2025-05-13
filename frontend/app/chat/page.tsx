@@ -45,7 +45,7 @@ export default function ChatPage() {
     setIsLoading(true)
   
     try {
-      const res = await fetch("http://localhost:8000/chat", {
+      const res = await fetch("https://mindful-app-r06f.onrender.com/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

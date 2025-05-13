@@ -19,7 +19,7 @@ export default function DashboardPage() {
         <div className="container mx-auto px-4 py-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
             <div>
-              <h1 className="text-3xl font-bold text-gray-800">Welcome, {user?.name}</h1>
+              <h1 className="text-3xl font-bold text-gray-800">Welcome, {user?.email}</h1>
               <p className="text-gray-600">Your mindfulness dashboard hub</p>
             </div>
           </div>
