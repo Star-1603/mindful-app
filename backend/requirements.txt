@@ -1,0 +1,10 @@
+flask
+uvicorn
+sqlalchemy
+pydantic
+bcrypt
+python-multipart
+httpx
+passlib
+flask_cors
+requests
