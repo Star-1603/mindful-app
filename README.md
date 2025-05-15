@@ -76,7 +76,7 @@ npm run dev
 
 
 ## 🧠 AI Chatbot & Trends
-Chatbot: Context-aware GPT integration using Flask
+Chatbot: Context-aware GPT integration using Flask (Google Gemini)
 
 Trends & Insights: LSTM-ready data and anomaly detection (coming soon)
 
