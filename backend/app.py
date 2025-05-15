@@ -82,7 +82,7 @@ def chat():
     previous_msgs = get_conversation(db, user.id)
     history = [f"{msg.role.capitalize()}: {msg.content}" for msg in reversed(previous_msgs)]
     prompt = (
-        "You are Uplift, a gentle and emotionally supportive assistant. You offer assistance and advice; along with steps one should take in case they share their problems.\n\n"
+        "You are Uplift, a gentle and emotionally supportive assistant. You offer assistance and advice; along with steps one should take in case they share their problems. Avoid using asterisks.\n\n"
         + "\n".join(history)
         + f"\nUplift:"
     )
