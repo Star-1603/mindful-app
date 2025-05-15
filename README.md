@@ -36,6 +36,8 @@
 
 ## 📦 Installation
 
+### Prerequisite: You have to configure a database in the backend (Postgres) with the following schema and store the DATABASE_URL in a .env file. Additionally, You will need to generate an API key for Gemini and store it with GOOGLE_API_KEY in the same .env file in the backend folder. These are integral to running the app. More information about API keys can be found at Google API dashboard; [link](https://ai.google.dev/gemini-api/docs)
+
 ### 1. Clone the repository
 
 ```bash
